@@ -11,10 +11,9 @@ EncrypTalk is a server-client chat application with a graphical user interface (
 
 ## Installation
 
-1. Clone the repository: git clone https://github.com/your_username/EncrypTalk.git
+1. Clone the repository
 
-2. Install the required dependencies: pip install rsa tkinter
-
+2. Install the required dependencies: ```pip install rsa tkinter```
 3. Run the server code on one machine and the client code on another machine or within separate terminals.
 
 4. Follow the on-screen prompts to set the server IP and port, connect to the server, and start the chat.
@@ -33,6 +32,17 @@ EncrypTalk is a server-client chat application with a graphical user interface (
 
 6. The received messages will be displayed in the chat history.
 
+## Output
+### Establishing the Connection
+![server](gui1.png)
+
+This screenshot shows the initial step of establishing the connection in EncrypTalk. Users need to enter the server's IP address and port number to connect to the server and initiate the chat session.
+
+### Chat Window
+![client](gui2.png)
+
+This screenshot illustrates the chat window of EncrypTalk. Users can enter messages in the input field at the bottom and send them by clicking the "Send Message" button. The chat history is displayed above the input field, showing both sent and received messages.
+
 ## Security
 
 EncrypTalk uses the RSA algorithm for secure communication. It generates a pair of public and private keys for each user, ensuring that only the intended recipient can decrypt the messages.
@@ -44,9 +54,3 @@ Contributions to EncrypTalk are welcome! If you find any issues or have suggesti
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
-
-
-
-
-
